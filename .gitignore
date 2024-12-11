@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# Arquivos de configuração sensíveis
+.env
+
+
+
+# Outros arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
